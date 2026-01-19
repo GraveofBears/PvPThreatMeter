@@ -1,0 +1,22 @@
+## Interface: 100207
+## Title: PvPThreatMeter
+## Notes: Personal PvP threat meter showing who is targeting, casting, and damaging you.
+## Author: Gravebear
+## Version: 1.1.0
+## SavedVariables: PvPThreatMeterDB
+## IconTexture: Interface\Icons\Ability_DualWield
+
+# Bootstrap FIRST (must be first)
+PvPThreatMeter.lua
+
+# Core System
+Core.lua
+
+# Options UI
+Options.lua
+
+# Detection Engine
+Detection.lua
+
+# Visual Components
+Meter.lua
